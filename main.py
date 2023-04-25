@@ -39,17 +39,24 @@ class Clock(tk.Label):
                 (current_hour == 12 and current_minute == 28 and current_second == 0) or \
                 (current_hour == 13 and current_minute == 0 and current_second == 0) or \
                 (current_hour == 13 and current_minute == 1 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 13 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 14 and current_minute == 0 and current_second == 0) or \
+                (current_hour == 14 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 15 and current_minute == 0 and current_second == 0) or \
+                (current_hour == 15 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 0 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 17 and current_minute == 0 and current_second == 0) or \
+                (current_hour == 17 and current_minute == 42 and current_second == 0) or \
+                (current_hour == 17 and current_minute == 43 and current_second == 0) or \
+                (current_hour == 18 and current_minute == 0 and current_second == 0) or \
+                (current_hour == 18 and current_minute == 1 and current_second == 0) or \
+                (current_hour == 9 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 9 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 9 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 9 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 9 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 9 and current_minute == 30 and current_second == 0) or \
                 (current_hour == 16 and current_minute == 10 and current_second == 0):
             tk.messagebox.showinfo('报时', '现在是' + str(current_hour) + '点' + str(current_minute) + '分！')
             winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
