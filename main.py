@@ -24,14 +24,9 @@ class Clock(tk.Label):
         current_minute = int(time.strftime('%M'))
         current_second = int(time.strftime('%S'))
 
-        # 设置报时时间
-        report_hour = 16
-        report_minute = 7
-        report_second = 0
-
         # 如果当前时间与报时时间一致，则弹出对话框并播放声音
-        if current_hour == report_hour and current_minute == report_minute and current_second == report_second:
-            tk.messagebox.showinfo('报时', '现在是' + str(report_hour) + '点' + str(report_minute) + '分！')
+        if current_hour == 16 and current_minute == 10 and current_second == 0:
+            tk.messagebox.showinfo('报时', '现在是' + str(current_hour) + '点' + str(current_minute) + '分！')
             winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
 
         self.after(1000, self.update_time)
