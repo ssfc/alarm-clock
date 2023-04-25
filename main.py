@@ -55,3 +55,6 @@ if __name__ == '__main__':
     root = tk.Tk()
     clock = Clock(root, font=('Helvetica', 48), seconds=True)
     root.mainloop()
+
+# Generate exe in command line
+# pyinstaller main.py --noconsole
