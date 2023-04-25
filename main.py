@@ -1,5 +1,7 @@
 import tkinter as tk
+import tkinter.messagebox
 import time
+import winsound
 
 
 class Clock(tk.Label):
@@ -16,6 +18,20 @@ class Clock(tk.Label):
             format = '%H:%M'
         current_time = time.strftime(format)
         self.config(text=current_time)
+
+        # 获取当前时间
+        current_hour = int(time.strftime('%H'))
+        current_minute = int(time.strftime('%M'))
+
+        # 设置报时时间
+        report_hour = 15
+        report_minute = 53
+
+        # 如果当前时间与报时时间一致，则弹出对话框并播放声音
+        if current_hour == report_hour and current_minute == report_minute:
+            tk.messagebox.showinfo('报时', '现在是8点20分！')
+            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
+
         self.after(1000, self.update_time)
 
 
