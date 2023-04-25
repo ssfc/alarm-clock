@@ -1,7 +1,7 @@
 # alarm-clock
 ## Introduction
 
-This project a desktop alarm clock
+This is a simple alarm clock built with Python using the tkinter library for the graphical user interface and the winsound library for playing  sound alerts.
 
 ## How to run 
 
