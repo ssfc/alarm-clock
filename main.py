@@ -29,14 +29,14 @@ class Clock(tk.Label):
                 (current_hour == 8 and current_minute == 0 and current_second == 1) or \
                 (current_hour == 8 and current_minute == 30 and current_second == 0) or \
                 (current_hour == 9 and current_minute == 0 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 9 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 10 and current_minute == 0 and current_second == 0) or \
+                (current_hour == 10 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 11 and current_minute == 0 and current_second == 0) or \
+                (current_hour == 11 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 12 and current_minute == 0 and current_second == 0) or \
+                (current_hour == 12 and current_minute == 27 and current_second == 0) or \
+                (current_hour == 12 and current_minute == 28 and current_second == 0) or \
                 (current_hour == 16 and current_minute == 10 and current_second == 0) or \
                 (current_hour == 16 and current_minute == 10 and current_second == 0) or \
                 (current_hour == 16 and current_minute == 10 and current_second == 0) or \
