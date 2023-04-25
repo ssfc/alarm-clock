@@ -25,7 +25,32 @@ class Clock(tk.Label):
         current_second = int(time.strftime('%S'))
 
         # 如果当前时间与报时时间一致，则弹出对话框并播放声音
-        if current_hour == 16 and current_minute == 10 and current_second == 0:
+        if (current_hour == 8 and current_minute == 0 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 16 and current_minute == 10 and current_second == 0):
             tk.messagebox.showinfo('报时', '现在是' + str(current_hour) + '点' + str(current_minute) + '分！')
             winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
 
