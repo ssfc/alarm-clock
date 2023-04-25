@@ -26,9 +26,9 @@ class Clock(tk.Label):
 
         # 如果当前时间与报时时间一致，则弹出对话框并播放声音
         if (current_hour == 8 and current_minute == 0 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
-                (current_hour == 16 and current_minute == 10 and current_second == 0) or \
+                (current_hour == 8 and current_minute == 0 and current_second == 1) or \
+                (current_hour == 8 and current_minute == 30 and current_second == 0) or \
+                (current_hour == 9 and current_minute == 0 and current_second == 0) or \
                 (current_hour == 16 and current_minute == 10 and current_second == 0) or \
                 (current_hour == 16 and current_minute == 10 and current_second == 0) or \
                 (current_hour == 16 and current_minute == 10 and current_second == 0) or \
