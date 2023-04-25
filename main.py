@@ -38,15 +38,16 @@ class Clock(tk.Label):
                        (18, 0, 0), (18, 1, 0), (18, 30, 0),  # 晚上上班
                        (19, 0, 0), (19, 30, 0),
                        (20, 0, 0), (20, 30, 0),  # 晚上下班
-                       (17, 42, 0)]  # 测试
+                       (18, 3, 0)]  # 测试
 
         current_time = (current_hour, current_minute, current_second)
 
         if current_time in time_points:
+            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
+            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
+            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
+            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
             tk.messagebox.showinfo('报时', '现在是' + str(current_hour) + '点' + str(current_minute) + '分！')
-            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
-            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
-            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
 
         self.after(1000, self.update_time)
 
