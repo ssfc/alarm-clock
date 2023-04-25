@@ -13,7 +13,7 @@ In file main.py, set variable time_points.
 
 Then pack the file in terminal: pyinstaller main.py --noconsole
 
-### Requirements
+## Requirements
 
 This program requires Python 3.x, as well as the tkinter and winsound libraries, which are included in most Python distributions.
 
