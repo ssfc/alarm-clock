@@ -58,4 +58,5 @@ if __name__ == '__main__':
     root.mainloop()
 
 # Generate exe in command line
+# pip install pyinstaller==5.5
 # pyinstaller main.py --noconsole
