@@ -43,13 +43,18 @@ class Clock(tk.Label):
         current_time = (current_hour, current_minute, current_second)
 
         if current_time in time_points:
-            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
-            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
-            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
-            winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
+            # winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
+            # winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
+            # winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
+            # winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
+            winsound.PlaySound('C:/Windows/Media/Ring09.wav', winsound.SND_FILENAME)
+            winsound.PlaySound('C:/Windows/Media/Ring09.wav', winsound.SND_FILENAME)
+            winsound.PlaySound('C:/Windows/Media/Ring09.wav', winsound.SND_FILENAME)
+            winsound.PlaySound('C:/Windows/Media/Ring09.wav', winsound.SND_FILENAME)
             tk.messagebox.showinfo('报时', '现在是' + str(current_hour) + '点' + str(current_minute) + '分！')
 
         self.after(1000, self.update_time)
+        # winsound.PlaySound('C:/Windows/Media/Ring09.wav', winsound.SND_FILENAME)
 
 
 if __name__ == '__main__':
