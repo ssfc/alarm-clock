@@ -49,7 +49,6 @@ class Clock(tk.Label):
             # winsound.PlaySound('SystemExclamation', winsound.SND_ALIAS)
             winsound.PlaySound('C:/Windows/Media/Ring09.wav', winsound.SND_FILENAME)
             winsound.PlaySound('C:/Windows/Media/Ring09.wav', winsound.SND_FILENAME)
-            winsound.PlaySound('C:/Windows/Media/Ring09.wav', winsound.SND_FILENAME)
             tk.messagebox.showinfo('报时', '现在是' + str(current_hour) + '点' + str(current_minute) + '分！')
 
         self.after(1000, self.update_time)
