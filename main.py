@@ -62,4 +62,5 @@ if __name__ == '__main__':
 
 # Generate exe in command line
 # pip install pyinstaller
+# cd C:\gitcloud\alarm-clock
 # pyinstaller main.py --noconsole
